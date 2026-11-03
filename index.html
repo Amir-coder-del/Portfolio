@@ -293,57 +293,25 @@
           <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">
             Roblox Studio <span class="text-gradient-purple">Building Skills</span>
           </h2>
-          <p class="text-sm text-gray-400">Specializing in high-detail Roblox Studio structures, custom terrain, and map design.</p>
+          <p class="text-sm text-gray-400">Specializing in high-detail Roblox Studio structures and part modeling.</p>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xl mx-auto">
           
-          <div class="glass-card p-5 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
-            <div class="w-12 h-12 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl">
+          <div class="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
+            <div class="w-14 h-14 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-3xl">
               <i class="fa-solid fa-cubes"></i>
             </div>
-            <span class="text-sm font-semibold text-white">Part Modeling</span>
+            <span class="text-base font-semibold text-white">Part Modeling</span>
             <span class="text-xs text-purple-300/80">Roblox Studio</span>
           </div>
 
-          <div class="glass-card p-5 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
-            <div class="w-12 h-12 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl">
-              <i class="fa-solid fa-mountain-sun"></i>
-            </div>
-            <span class="text-sm font-semibold text-white">Smooth Terrain</span>
-            <span class="text-xs text-purple-300/80">Landscaping</span>
-          </div>
-
-          <div class="glass-card p-5 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
-            <div class="w-12 h-12 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl">
-              <i class="fa-solid fa-lightbulb"></i>
-            </div>
-            <span class="text-sm font-semibold text-white">Atmosphere &amp; FX</span>
-            <span class="text-xs text-purple-300/80">Custom Lighting</span>
-          </div>
-
-          <div class="glass-card p-5 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
-            <div class="w-12 h-12 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl">
+          <div class="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
+            <div class="w-14 h-14 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-3xl">
               <i class="fa-solid fa-gopuram"></i>
             </div>
-            <span class="text-sm font-semibold text-white">Architecture</span>
+            <span class="text-base font-semibold text-white">Architecture</span>
             <span class="text-xs text-purple-300/80">Gothic &amp; Modern</span>
-          </div>
-
-          <div class="glass-card p-5 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
-            <div class="w-12 h-12 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl">
-              <i class="fa-solid fa-paintbrush"></i>
-            </div>
-            <span class="text-sm font-semibold text-white">Material Design</span>
-            <span class="text-xs text-purple-300/80">Texturing &amp; Color</span>
-          </div>
-
-          <div class="glass-card p-5 rounded-2xl flex flex-col items-center text-center space-y-3 hover:scale-105 transition-transform">
-            <div class="w-12 h-12 rounded-xl bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl">
-              <i class="fa-solid fa-gauge-high"></i>
-            </div>
-            <span class="text-sm font-semibold text-white">Map Optimization</span>
-            <span class="text-xs text-purple-300/80">Lag-Free Builds</span>
           </div>
 
         </div>
@@ -382,25 +350,6 @@
         <button onclick="openUploadModal()" class="px-6 py-3 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold text-sm shadow-lg shadow-purple-600/30 flex items-center gap-2 self-start md:self-auto transition-transform active:scale-95">
           <i class="fa-solid fa-cloud-arrow-up text-base"></i>
           <span>+ Upload Build Screenshot</span>
-        </button>
-      </div>
-
-      <!-- Filter Controls Bar -->
-      <div class="flex flex-wrap items-center gap-2 sm:gap-3">
-        <button id="filterAllBtn" onclick="filterGallery('all')" class="filter-btn active px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-purple-600 text-white shadow-md">
-          All Builds (0)
-        </button>
-        <button onclick="filterGallery('Gothic & Fantasy')" class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all glass-card text-gray-300 hover:text-white hover:bg-purple-900/40">
-          Gothic &amp; Fantasy
-        </button>
-        <button onclick="filterGallery('Shrine & Nature')" class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all glass-card text-gray-300 hover:text-white hover:bg-purple-900/40">
-          Shrine &amp; Nature
-        </button>
-        <button onclick="filterGallery('Urban & Tower')" class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all glass-card text-gray-300 hover:text-white hover:bg-purple-900/40">
-          Urban &amp; Tower
-        </button>
-        <button onclick="filterGallery('Medieval')" class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all glass-card text-gray-300 hover:text-white hover:bg-purple-900/40">
-          Medieval
         </button>
       </div>
 
@@ -627,10 +576,8 @@
         <div>
           <label class="block text-xs font-semibold text-purple-300 mb-1">Build Category *</label>
           <select id="workCategory" class="w-full px-4 py-2.5 rounded-xl bg-brand-surface border border-purple-500/30 text-white text-sm focus:outline-none focus:border-purple-400">
-            <option value="Gothic & Fantasy">Gothic &amp; Fantasy</option>
-            <option value="Shrine & Nature">Shrine &amp; Nature</option>
-            <option value="Urban & Tower">Urban &amp; Tower</option>
-            <option value="Medieval">Medieval</option>
+            <option value="Part Modeling">Part Modeling</option>
+            <option value="Architecture">Architecture</option>
           </select>
         </div>
 
